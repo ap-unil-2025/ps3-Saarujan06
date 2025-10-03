@@ -1,3 +1,4 @@
+# Problem 2 solution (skeleton)
 """
 Problem 2: Temperature Converter
 Convert between Celsius and Fahrenheit temperatures.
