@@ -15,10 +15,9 @@ It is widely used in web development, data science, and automation.
 Python's simple syntax makes it great for beginners.
 Many companies use Python for their projects."""
 
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding="utf-8") as f:
         f.write(content)
     print(f"Created {filename}")
-
 
 def count_words(filename):
     """
@@ -30,7 +29,7 @@ def count_words(filename):
     Returns:
         int: Total number of words
     """
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         text = f.read()
         return len(text.split())
 
@@ -46,7 +45,7 @@ def count_lines(filename):
     Returns:
         int: Total number of lines
     """
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         return len(f.readlines())
 
 
@@ -62,7 +61,7 @@ def count_characters(filename, include_spaces=True):
     Returns:
         int: Total number of characters
     """
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         text = f.read()
         if include_spaces:
             return len(text)
@@ -81,7 +80,7 @@ def find_longest_word(filename):
     Returns:
         str: The longest word found
     """
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         text = f.read()
         # remove punctuation
         import string
@@ -109,7 +108,7 @@ def word_frequency(filename):
 
     frequency = {}
 
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf-8") as f:
         text = f.read().lower()
         for char in string.punctuation:
             text = text.replace(char, "")
@@ -148,8 +147,8 @@ def analyze_file(filename):
 
     except FileNotFoundError:
         print(f"Error: File '{filename}' not found!")
-    except Exception as e:
-        print(f"Error: {e}")
+    except OSError as e:
+        print(f"OS error: {e}")
 
 
 def main():
