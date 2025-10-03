@@ -40,7 +40,7 @@ def temperature_converter():
     2. Current unit (C or F)
     3. Convert and display result
     """
-def temperature_converter():
+    
     print("Temperature Converter")
     print("-" * 30)
 
