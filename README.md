@@ -38,4 +38,4 @@ python bonus_password_generator.py  # if completed
 - [ ] Problem 4: File word counter produces correct output
 - [ ] (Optional) Bonus password generator completed
 - [ ] All code is properly commented
-- [ ] Repository pushed to GitHub
+- [ ] Repository pushed to GitHub# Notes for PS3
