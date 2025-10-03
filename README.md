@@ -36,6 +36,6 @@ python bonus_password_generator.py  # if completed
 - [x] Problem 2: Temperature converter works correctly
 - [x] Problem 3: Number analysis handles all requirements
 - [x] Problem 4: File word counter produces correct output
-- [ ] (Optional) Bonus password generator completed
-- [ ] All code is properly commented
-- [ ] Repository pushed to GitHub# Notes for PS3
+- [x] (Optional) Bonus password generator completed
+- [x] All code is properly commented
+- [x] Repository pushed to GitHub# Notes for PS3
