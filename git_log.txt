@@ -1,0 +1,6 @@
+* bcf23c9 (HEAD -> main) Add header to problem3.py
+* ad4cb9f Add header to problem2.py
+* 839eddf Add notes section to README
+* 23bd40d (origin/main, origin/HEAD) Add my name and date
+* 7bcb689 Add GitHub Classroom autograding configuration
+* 2dc2daa Initial commit
